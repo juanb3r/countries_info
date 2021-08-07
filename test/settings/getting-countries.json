@@ -1,0 +1,275 @@
+[{
+    "Europe": {
+        "name": "Albania",
+        "topLevelDomain": [".al"],
+        "alpha2Code": "AL",
+        "alpha3Code": "ALB",
+        "callingCodes": ["355"],
+        "capital": "Tirana",
+        "altSpellings": ["AL", "Shqipëri", "Shqipëria", "Shqipnia"],
+        "region": "Europe",
+        "subregion": "Southern Europe",
+        "population": 2886026,
+        "latlng": [41.0, 20.0],
+        "demonym": "Albanian",
+        "area": 28748.0,
+        "gini": 34.5,
+        "timezones": ["UTC+01:00"],
+        "borders": ["MNE", "GRC", "MKD", "KOS"],
+        "nativeName": "Shqipëria",
+        "numericCode": "008",
+        "currencies": [{
+            "code": "ALL",
+            "name": "Albanian lek",
+            "symbol": "L"
+        }],
+        "languages": [{
+            "iso639_1": "sq",
+            "iso639_2": "sqi",
+            "name": "Albanian",
+            "nativeName": "Shqip"
+        }],
+        "translations": {
+            "de": "Albanien",
+            "es": "Albania",
+            "fr": "Albanie",
+            "ja": "アルバニア",
+            "it": "Albania",
+            "br": "Albânia",
+            "pt": "Albânia",
+            "nl": "Albanië",
+            "hr": "Albanija",
+            "fa": "آلبانی"
+        },
+        "flag": "https://restcountries.eu/data/alb.svg",
+        "regionalBlocs": [{
+            "acronym": "CEFTA",
+            "name": "Central European Free Trade Agreement",
+            "otherAcronyms": [],
+            "otherNames": []
+        }],
+        "cioc": "ALB"
+    }
+},{
+    "Africa": {
+        "name": "Botswana",
+        "topLevelDomain": [".bw"],
+        "alpha2Code": "BW",
+        "alpha3Code": "BWA",
+        "callingCodes": ["267"],
+        "capital": "Gaborone",
+        "altSpellings": ["BW", "Republic of Botswana", "Lefatshe la Botswana"],
+        "region": "Africa",
+        "subregion": "Southern Africa",
+        "population": 2141206,
+        "latlng": [-22.0, 24.0],
+        "demonym": "Motswana",
+        "area": 582000.0,
+        "gini": 61.0,
+        "timezones": ["UTC+02:00"],
+        "borders": ["NAM", "ZAF", "ZMB", "ZWE"],
+        "nativeName": "Botswana",
+        "numericCode": "072",
+        "currencies": [{
+            "code": "BWP",
+            "name": "Botswana pula",
+            "symbol": "P"
+        }],
+        "languages": [{
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+        }, {
+            "iso639_1": "tn",
+            "iso639_2": "tsn",
+            "name": "Tswana",
+            "nativeName": "Setswana"
+        }],
+        "translations": {
+            "de": "Botswana",
+            "es": "Botswana",
+            "fr": "Botswana",
+            "ja": "ボツワナ",
+            "it": "Botswana",
+            "br": "Botsuana",
+            "pt": "Botsuana",
+            "nl": "Botswana",
+            "hr": "Bocvana",
+            "fa": "بوتسوانا"
+        },
+        "flag": "https://restcountries.eu/data/bwa.svg",
+        "regionalBlocs": [{
+            "acronym": "AU",
+            "name": "African Union",
+            "otherAcronyms": [],
+            "otherNames": ["الاتحاد الأفريقي", "Union africaine", "União Africana", "Unión Africana", "Umoja wa Afrika"]
+        }],
+        "cioc": "BOT"
+    }
+},{
+    "Americas": {
+        "name": "Colombia",
+        "topLevelDomain": [".co"],
+        "alpha2Code": "CO",
+        "alpha3Code": "COL",
+        "callingCodes": ["57"],
+        "capital": "Bogotá",
+        "altSpellings": ["CO", "Republic of Colombia", "República de Colombia"],
+        "region": "Americas",
+        "subregion": "South America",
+        "population": 48759958,
+        "latlng": [4.0, -72.0],
+        "demonym": "Colombian",
+        "area": 1141748.0,
+        "gini": 55.9,
+        "timezones": ["UTC-05:00"],
+        "borders": ["BRA", "ECU", "PAN", "PER", "VEN"],
+        "nativeName": "Colombia",
+        "numericCode": "170",
+        "currencies": [{
+            "code": "COP",
+            "name": "Colombian peso",
+            "symbol": "$"
+        }],
+        "languages": [{
+            "iso639_1": "es",
+            "iso639_2": "spa",
+            "name": "Spanish",
+            "nativeName": "Español"
+        }],
+        "translations": {
+            "de": "Kolumbien",
+            "es": "Colombia",
+            "fr": "Colombie",
+            "ja": "コロンビア",
+            "it": "Colombia",
+            "br": "Colômbia",
+            "pt": "Colômbia",
+            "nl": "Colombia",
+            "hr": "Kolumbija",
+            "fa": "کلمبیا"
+        },
+        "flag": "https://restcountries.eu/data/col.svg",
+        "regionalBlocs": [{
+            "acronym": "PA",
+            "name": "Pacific Alliance",
+            "otherAcronyms": [],
+            "otherNames": ["Alianza del Pacífico"]
+        }, {
+            "acronym": "USAN",
+            "name": "Union of South American Nations",
+            "otherAcronyms": ["UNASUR", "UNASUL", "UZAN"],
+            "otherNames": ["Unión de Naciones Suramericanas", "União de Nações Sul-Americanas", "Unie van Zuid-Amerikaanse Naties", "South American Union"]
+        }],
+        "cioc": "COL"
+    }
+},
+{
+    "Oceania": {
+        "name": "Cook Islands",
+        "topLevelDomain": [".ck"],
+        "alpha2Code": "CK",
+        "alpha3Code": "COK",
+        "callingCodes": ["682"],
+        "capital": "Avarua",
+        "altSpellings": ["CK", "Kūki 'Āirani"],
+        "region": "Oceania",
+        "subregion": "Polynesia",
+        "population": 18100,
+        "latlng": [-21.23333333, -159.76666666],
+        "demonym": "Cook Islander",
+        "area": 236.0,
+        "gini": null,
+        "timezones": ["UTC-10:00"],
+        "borders": [],
+        "nativeName": "Cook Islands",
+        "numericCode": "184",
+        "currencies": [{
+            "code": "NZD",
+            "name": "New Zealand dollar",
+            "symbol": "$"
+        }, {
+            "code": "CKD",
+            "name": "Cook Islands dollar",
+            "symbol": "$"
+        }],
+        "languages": [{
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+        }],
+        "translations": {
+            "de": "Cookinseln",
+            "es": "Islas Cook",
+            "fr": "Îles Cook",
+            "ja": "クック諸島",
+            "it": "Isole Cook",
+            "br": "Ilhas Cook",
+            "pt": "Ilhas Cook",
+            "nl": "Cookeilanden",
+            "hr": "Cookovo Otočje",
+            "fa": "جزایر کوک"
+        },
+        "flag": "https://restcountries.eu/data/cok.svg",
+        "regionalBlocs": [],
+        "cioc": "COK"
+    }
+},{
+    "Polar": {
+        "name": "Antarctica",
+        "topLevelDomain": [".aq"],
+        "alpha2Code": "AQ",
+        "alpha3Code": "ATA",
+        "callingCodes": ["672"],
+        "capital": "",
+        "altSpellings": [],
+        "region": "Polar",
+        "subregion": "",
+        "population": 1000,
+        "latlng": [-74.65, 4.48],
+        "demonym": "",
+        "area": 1.4E7,
+        "gini": null,
+        "timezones": ["UTC-03:00", "UTC+03:00", "UTC+05:00", "UTC+06:00", "UTC+07:00", "UTC+08:00", "UTC+10:00", "UTC+12:00"],
+        "borders": [],
+        "nativeName": "Antarctica",
+        "numericCode": "010",
+        "currencies": [{
+            "code": "AUD",
+            "name": "Australian dollar",
+            "symbol": "$"
+        }, {
+            "code": "GBP",
+            "name": "British pound",
+            "symbol": "£"
+        }],
+        "languages": [{
+            "iso639_1": "en",
+            "iso639_2": "eng",
+            "name": "English",
+            "nativeName": "English"
+        }, {
+            "iso639_1": "ru",
+            "iso639_2": "rus",
+            "name": "Russian",
+            "nativeName": "Русский"
+        }],
+        "translations": {
+            "de": "Antarktika",
+            "es": "Antártida",
+            "fr": "Antarctique",
+            "ja": "南極大陸",
+            "it": "Antartide",
+            "br": "Antártida",
+            "pt": "Antárctida",
+            "nl": "Antarctica",
+            "hr": "Antarktika",
+            "fa": "جنوبگان"
+        },
+        "flag": "https://restcountries.eu/data/ata.svg",
+        "regionalBlocs": [],
+        "cioc": ""
+    }
+}]

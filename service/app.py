@@ -4,8 +4,8 @@ import random
 import requests
 import pandas as pd
 
-from create_bd import create_connection, create_table
 from datetime import datetime
+from service.create_bd import create_connection, create_table
 
 
 def get_regions() -> list:
@@ -32,14 +32,15 @@ def get_regions() -> list:
     return regions
 
 
-def get_one_country_per_region(regions: list) -> list:
+def get_one_country_per_region(regions: list) -> tuple:
     """Get one country randomly per region
 
     Args:
         regions (list): All regions in the world
 
     Returns:
-        list: countries located at different regions
+        tuple: countries located at different regions and
+        their query time
     """
 
     url: str = "https://restcountries.eu/rest/v2/region/"
@@ -55,7 +56,7 @@ def get_one_country_per_region(regions: list) -> list:
         timestamp_later = datetime.timestamp(later)
         time_request.append(round(timestamp_later - timestamp_now, 2))
 
-    return countries_per_region, time_request
+    return (countries_per_region, time_request)
 
 
 def get_country_name(countries: list) -> list:
@@ -67,7 +68,7 @@ def get_country_name(countries: list) -> list:
     Returns:
         list: country's name
     """
-    countries_name: list = [ country["name"] for country in countries]
+    countries_name: list = [country["name"] for country in countries]
 
     return countries_name
 

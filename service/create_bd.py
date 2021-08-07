@@ -22,7 +22,7 @@ def create_connection(db_file: str) -> sqlite3.connect:
 
 
 def create_table(conn):
-    countries_file = open('create_countries_table.sql', 'r')
+    countries_file = open('service/create_countries_table.sql', 'r')
     sql_file = countries_file.read()
     countries_file.close()
     try:
