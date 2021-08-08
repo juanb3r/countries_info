@@ -108,7 +108,7 @@ def set_data_dict() -> list:
 
     data_list: list = []
 
-    for index in range(0, len(regions)-1):
+    for index in range(0, len(regions)):
 
         data_list.append({
             "region": regions[index],
@@ -136,7 +136,7 @@ def save_data_in_db(conn, data_list: list) -> None:
 
 def display(conn) -> None:
     """ Create a query to see what is inside the countries table
-        Using pandas library 
+        Using pandas library
 
     Args:
         conn ([type]): [description]
